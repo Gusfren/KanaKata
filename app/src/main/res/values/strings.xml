@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">KanaKata</string>
+
+    <string name="title_pilih_huruf">PILIH HURUF</string>
+    <string name="hiragana_button_text_1">Hiragana\nひらがな</string>
+    <string name="hiragana_button_text_2">Hiragana\nひらがな</string>
+    <string name="hiragana_button_text_3">Hiragana\nひらがな</string>
+
+    <style name="MainMenuButton">
+        <item name="android:layout_width">0dp</item> <!-- full width with ConstraintLayout -->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@null</item> <!-- supaya warna pakai backgroundTint -->
+        <item name="android:elevation">4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+        <item name="android:backgroundTintMode">src_in</item>
+        <item name="android:stateListAnimator">@null</item> <!-- untuk hilangkan animasi default -->
+        <item name="android:shape">rectangle</item>
+        <item name="android:radius">20dp</item> <!-- rounded -->
+    </style>
+
+</resources>
