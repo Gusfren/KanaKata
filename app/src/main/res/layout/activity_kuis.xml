@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/kuisLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9DD"
+    android:orientation="vertical"
+    android:padding="24dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".KuisActivity">
+
+    <!-- Header -->
+    <Button
+        android:id="@+id/headerKuis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kuis"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#F28B82"
+        android:background="@drawable/rounded_button"
+        android:elevation="4dp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Scrollable Level Buttons -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/levelList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal" />
+
+    </ScrollView>
+
+</LinearLayout>

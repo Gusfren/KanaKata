@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/belajarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF9DD"
+    android:padding="24dp"
+    tools:context=".BelajarActivity">
+
+    <!-- Header -->
+    <Button
+        android:id="@+id/headerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belajar"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#F28B82"
+        android:background="@drawable/rounded_button"
+        android:elevation="4dp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Grid Huruf -->
+    <GridLayout
+        android:id="@+id/gridHuruf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignMargins"
+        android:columnCount="5"
+        android:rowCount="7"
+        android:rowOrderPreserved="false"
+        android:layout_gravity="center"
+        android:useDefaultMargins="true" />
+
+</LinearLayout>

@@ -36,7 +36,7 @@ class MainMenu : AppCompatActivity() {
         val btnKanji3 = findViewById<Button>(R.id.btnKanji)
         btnKanji3.setOnClickListener {
             val intent = Intent(this, HurufMenuActivity::class.java)
-            intent.putExtra("huruf", "Katakana")
+            intent.putExtra("huruf", "Kanji")
             startActivity(intent)
         }
     }

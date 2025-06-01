@@ -5,9 +5,6 @@
     android:layout_height="match_parent"
     android:background="#FFF9DD">
 
-    <!-- Judul Huruf -->
-
-    <!-- Tombol Belajar -->
     <TextView
         android:id="@+id/tvHuruf"
         android:layout_width="0dp"
