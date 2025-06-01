@@ -2,9 +2,10 @@
     <string name="app_name">KanaKata</string>
 
     <string name="title_pilih_huruf">PILIH HURUF</string>
-    <string name="hiragana_button_text_1">Hiragana\nひらがな</string>
-    <string name="hiragana_button_text_2">Hiragana\nひらがな</string>
-    <string name="hiragana_button_text_3">Hiragana\nひらがな</string>
+    <string name="hiragana_button_text">Hiragana&#10;ひらがな</string>
+    <string name="katakana_button_text">Katakana&#10;カタカナ</string>
+    <string name="kanji_button_text">Kanji&#10;漢字</string>
+
 
     <style name="MainMenuButton">
         <item name="android:layout_width">0dp</item> <!-- full width with ConstraintLayout -->

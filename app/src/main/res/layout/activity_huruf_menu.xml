@@ -1,0 +1,65 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9DD">
+
+    <!-- Judul Huruf -->
+
+    <!-- Tombol Belajar -->
+    <TextView
+        android:id="@+id/tvHuruf"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/rounded_bg"
+        android:backgroundTint="#F28B82"
+        android:fontFamily="serif"
+        android:padding="12dp"
+        android:text="Hiragana\nひらがな"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBelajar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Belajar"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:backgroundTint="#F28B82"
+        android:fontFamily="serif"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@id/tvHuruf"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <!-- Tombol Kuis -->
+    <Button
+        android:id="@+id/btnKuis"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Kuis"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:backgroundTint="#F28B82"
+        android:fontFamily="serif"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@id/btnBelajar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
